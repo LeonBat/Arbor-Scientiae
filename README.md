@@ -6,17 +6,21 @@
 <br>
 
 
-### Table of Content
+### Table of Content 
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-
+3. [Tech Stack](#techstack)
+4. [Roadmap](#roadmap)
 
 <br><br><br><br>
 
 <hr>
 
 ### Introduction
+
+[Go back](#table-of-content)
+
 
 Whether you work in Science, Engineering or are just a curious person you probably have found yourself sometimes stuck reading tons of articles but not getting exactly what you want. 
 I am currently writing my Master's Thesis and I realized how much time actually gets lost because finding the *right* paper at the *right* time is quite difficult. Don't get me wrong here, Research definitely is an important component when it comes to making your results align with current standards and breaking into a particular field. But from time to time it would be nice to speed up the process a little bit.
@@ -30,6 +34,8 @@ My project **Arbor Scientiae** tackles this problem by turning a pile of papers 
 
 ### Features
 
+
+[Go back](#table-of-content)
 
 **Keyword Matching**
 
@@ -79,11 +85,14 @@ classDef default fill:#ffffff,stroke:#333,stroke-width:1px;
 
 ```
 
-
+<br><br><br><br>
 
 ---
 
 ### TechStack
+
+[Go back](#table-of-content)
+
 
 **Data & APIs**
 
@@ -112,3 +121,36 @@ classDef default fill:#ffffff,stroke:#333,stroke-width:1px;
 
 - [Python](https://www.python.org/)
 - [FASTAPI](https://fastapi.tiangolo.com/)
+
+
+
+
+<br><br><br><br>
+
+---
+
+
+### Roadmap
+
+[Go back](#table-of-content)
+
+
+**Phase 1 – Foundation**
+- ✅ Repository setup & project structure
+- ⬜ arXiv / Semantic Scholar API integration
+- ⬜ Keyword search
+- ⬜ Basic graph construction with NetworkX
+
+**Phase 2 – ML Pipeline**
+- ⬜ SPECTER Embeddings
+- ⬜ UMAP + HDBSCAN Clustering
+- ⬜ LLM-powered Cluster Labels
+
+**Phase 3 – Visualization**
+- ⬜ Interactive graph with Pyvis
+- ⬜ Cluster coloring & labeling
+
+**Phase 4 – Finalization**
+- ⬜ Semantic Search
+- ⬜ Frontend (HTML/CSS/JS)
+- ⬜ Performance optimization for large datasets
