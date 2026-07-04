@@ -78,3 +78,37 @@ classDef default fill:#ffffff,stroke:#333,stroke-width:1px;
  class L1,L2,L3,L4 txt;
 
 ```
+
+
+
+---
+
+### TechStack
+
+**Data & APIs**
+
+- [arXiv API](https://info.arxiv.org/help/api/user-manual.html) / [Semantic Scholar API](https://www.semanticscholar.org/product/api)
+
+<br>
+
+**ML & NLP**
+
+- [SPECTER](https://huggingface.co/allenai/specter)
+- [UMAP](https://umap-learn.readthedocs.io/en/latest/)
+- [HDBSCAN](https://hdbscan.readthedocs.io/)
+- [Anthropic API](https://docs.anthropic.com/)
+
+
+<br>
+
+**Graph & Visualization**
+
+- [NetworkX](https://networkx.org/en/)
+- [Pyvis](https://pyvis.readthedocs.io/en/latest/)
+
+<br>
+
+**Backend**
+
+- [Python](https://www.python.org/)
+- [FASTAPI](https://fastapi.tiangolo.com/)
