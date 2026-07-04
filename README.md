@@ -51,19 +51,30 @@ The results are presented in an interactive knowledge graph that can be traverse
 
 **ML-powered Clustering**
 
-<i>Arbor Scientiae</i> leverages the power of ML to cluster the results and make sense of paper stacks. It uses the following ML-Workflow:
+<i>Arbor Scientiae</i> leverages the power of ML to cluster the results and make sense of paper stacks. 
 
-graph TD
-    %% Definition der Styles
-    classDef step fill:#f9f0ff,stroke:#d3adf7,stroke-width:2px,color:#1f1f1f,font-weight:bold;
-    classDef active fill:#e6f7ff,stroke:#1890ff,stroke-width:2px,color:#1f1f1f,font-weight:bold;
+---
+ ML-Workflow of Arbor Scientiae
+---
+
+```mermaid
+   
+   flowchart
     
-    A[Paper Abstracts] -->|raw text| B(SPECTER Embeddings);
-    B -->|high-dimensional vectors| C(UMAP Dimensionality Reduction);
-    C -->|2D/3D Coordinates| D(HDBSCAN Clustering);
-    D -->|Clustered Data & Keywords| E(🤖 LLM Label Generation);
+classDef default fill:#ffffff,stroke:#333,stroke-width:1px;
+    classDef step fill:#f9f0ff,stroke:#d3adf7,stroke-width:2px,color:#1f1f1f,font-weight:bold,padding:12px 20px;
+    classDef active fill:#e6f7ff,stroke:#1890ff,stroke-width:2px,color:#1f1f1f,font-weight:bold,padding:12px 20px;
+    classDef txt fill:none,stroke:none,color:#666,font-style:italic,padding:10px 15px;
+
+
+
+  A[Paper Abstracts] --> L1[Raw text] --> B(SPECTER Embeddings)
+    B --> L2[High-dimensional vectors] --> C(UMAP Dimensionality <br> Reduction)
+    C --> L3[2D/3D Coordinates] --> D(HDBSCAN Clustering)
+    D --> L4[Clustered Data & Keywords] --> E(LLM Label Generation)
     
-    class B,C,D,E step;
-    class A active;
+ class B,C,D,E step;
+ class A active;
+ class L1,L2,L3,L4 txt;
 
-
+```
