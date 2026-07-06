@@ -1,6 +1,12 @@
 # Aditional files to be ignored
 .env 
 
+#ignore data files
+data/raw/*.json
+data/processed
+
+!tests/mock_ppers.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

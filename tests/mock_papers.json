@@ -1,0 +1,117 @@
+[
+    {
+        "title": "Attention Is All You Need",
+        "citations": 95000,
+        "references": 44,
+        "year": 2017,
+        "authors": [
+            {
+                "name": "Ashish Vaswani"
+            },
+            {
+                "name": "Noam Shazeer"
+            },
+            {
+                "name": "Niki Parmar"
+            },
+            {
+                "name": "Jakob Uszkoreit"
+            },
+            {
+                "name": "Llion Jones"
+            },
+            {
+                "name": "Aidan N. Gomez"
+            },
+            {
+                "name": "Łukasz Kaiser"
+            },
+            {
+                "name": "Illia Polosukhin"
+            }
+        ]
+    },
+    {
+        "title": "Deep Residual Learning for Image Recognition",
+        "citations": 76000,
+        "references": 32,
+        "year": 2016,
+        "authors": [
+            {
+                "name": "Kaiming He"
+            },
+            {
+                "name": "Xiangyu Zhang"
+            },
+            {
+                "name": "Shaoqing Ren"
+            },
+            {
+                "name": "Jian Sun"
+            }
+        ]
+    },
+    {
+        "title": "A Survey on Graph Neural Networks",
+        "citations": 18000,
+        "references": 210,
+        "year": 2020,
+        "authors": [
+            {
+                "name": "Zonghan Wu"
+            },
+            {
+                "name": "Shirui Pan"
+            },
+            {
+                "name": "Fengwen Chen"
+            },
+            {
+                "name": "Guodong Long"
+            },
+            {
+                "name": "Chengqi Zhang"
+            },
+            {
+                "name": "Philip S. Yu"
+            }
+        ]
+    },
+    {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "citations": 85000,
+        "references": 53,
+        "year": 2018,
+        "authors": [
+            {
+                "name": "Jacob Devlin"
+            },
+            {
+                "name": "Ming-Wei Chang"
+            },
+            {
+                "name": "Kenton Lee"
+            },
+            {
+                "name": "Kristina Toutanova"
+            }
+        ]
+    },
+    {
+        "title": "The Elements of Statistical Learning",
+        "citations": 42000,
+        "references": 138,
+        "year": 2001,
+        "authors": [
+            {
+                "name": "Trevor Hastie"
+            },
+            {
+                "name": "Robert Tibshirani"
+            },
+            {
+                "name": "Jerome Friedman"
+            }
+        ]
+    }
+]
