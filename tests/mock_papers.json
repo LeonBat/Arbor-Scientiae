@@ -1,117 +1,202 @@
-[
-    {
-        "title": "Attention Is All You Need",
-        "citations": 95000,
-        "references": 44,
-        "year": 2017,
-        "authors": [
-            {
-                "name": "Ashish Vaswani"
-            },
-            {
-                "name": "Noam Shazeer"
-            },
-            {
-                "name": "Niki Parmar"
-            },
-            {
-                "name": "Jakob Uszkoreit"
-            },
-            {
-                "name": "Llion Jones"
-            },
-            {
-                "name": "Aidan N. Gomez"
-            },
-            {
-                "name": "Łukasz Kaiser"
-            },
-            {
-                "name": "Illia Polosukhin"
-            }
-        ]
-    },
-    {
-        "title": "Deep Residual Learning for Image Recognition",
-        "citations": 76000,
-        "references": 32,
-        "year": 2016,
-        "authors": [
-            {
-                "name": "Kaiming He"
-            },
-            {
-                "name": "Xiangyu Zhang"
-            },
-            {
-                "name": "Shaoqing Ren"
-            },
-            {
-                "name": "Jian Sun"
-            }
-        ]
-    },
-    {
-        "title": "A Survey on Graph Neural Networks",
-        "citations": 18000,
-        "references": 210,
-        "year": 2020,
-        "authors": [
-            {
-                "name": "Zonghan Wu"
-            },
-            {
-                "name": "Shirui Pan"
-            },
-            {
-                "name": "Fengwen Chen"
-            },
-            {
-                "name": "Guodong Long"
-            },
-            {
-                "name": "Chengqi Zhang"
-            },
-            {
-                "name": "Philip S. Yu"
-            }
-        ]
-    },
-    {
-        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-        "citations": 85000,
-        "references": 53,
-        "year": 2018,
-        "authors": [
-            {
-                "name": "Jacob Devlin"
-            },
-            {
-                "name": "Ming-Wei Chang"
-            },
-            {
-                "name": "Kenton Lee"
-            },
-            {
-                "name": "Kristina Toutanova"
-            }
-        ]
-    },
-    {
-        "title": "The Elements of Statistical Learning",
-        "citations": 42000,
-        "references": 138,
-        "year": 2001,
-        "authors": [
-            {
-                "name": "Trevor Hastie"
-            },
-            {
-                "name": "Robert Tibshirani"
-            },
-            {
-                "name": "Jerome Friedman"
-            }
-        ]
-    }
-]
+{
+    "data": [
+        {
+            "paperId": "paper_001",
+            "title": "Attention Is All You Need",
+            "abstract": "This paper introduces the Transformer architecture for sequence modeling without recurrence or convolution. It demonstrates strong results on machine translation tasks and establishes the foundation for modern large language models.",
+            "citations": [
+                {
+                    "paperId": "paper_101"
+                },
+                {
+                    "paperId": "paper_102"
+                }
+            ],
+            "references": [
+                {
+                    "paperId": "paper_201"
+                },
+                {
+                    "paperId": "paper_202"
+                },
+                {
+                    "paperId": "paper_203"
+                }
+            ],
+            "year": 2017,
+            "authors": [
+                {
+                    "name": "Ashish Vaswani"
+                },
+                {
+                    "name": "Noam Shazeer"
+                },
+                {
+                    "name": "Niki Parmar"
+                },
+                {
+                    "name": "Jakob Uszkoreit"
+                },
+                {
+                    "name": "Llion Jones"
+                },
+                {
+                    "name": "Aidan N. Gomez"
+                },
+                {
+                    "name": "Łukasz Kaiser"
+                },
+                {
+                    "name": "Illia Polosukhin"
+                }
+            ]
+        },
+        {
+            "paperId": "paper_002",
+            "title": "Deep Residual Learning for Image Recognition",
+            "abstract": "This work presents residual networks that make very deep convolutional models easier to optimize. The approach significantly improves image classification performance on benchmark datasets.",
+            "citations": [
+                {
+                    "paperId": "paper_103"
+                },
+                {
+                    "paperId": "paper_104"
+                },
+                {
+                    "paperId": "paper_105"
+                }
+            ],
+            "references": [
+                {
+                    "paperId": "paper_204"
+                },
+                {
+                    "paperId": "paper_205"
+                }
+            ],
+            "year": 2016,
+            "authors": [
+                {
+                    "name": "Kaiming He"
+                },
+                {
+                    "name": "Xiangyu Zhang"
+                },
+                {
+                    "name": "Shaoqing Ren"
+                },
+                {
+                    "name": "Jian Sun"
+                }
+            ]
+        },
+        {
+            "paperId": "paper_003",
+            "title": "A Survey on Graph Neural Networks",
+            "abstract": "This survey summarizes the major ideas behind graph neural networks and their most common architectures. It also reviews key application areas and open research challenges.",
+            "citations": [
+                {
+                    "paperId": "paper_106"
+                }
+            ],
+            "references": [
+                {
+                    "paperId": "paper_206"
+                },
+                {
+                    "paperId": "paper_207"
+                },
+                {
+                    "paperId": "paper_208"
+                }
+            ],
+            "year": 2020,
+            "authors": [
+                {
+                    "name": "Zonghan Wu"
+                },
+                {
+                    "name": "Shirui Pan"
+                },
+                {
+                    "name": "Fengwen Chen"
+                },
+                {
+                    "name": "Guodong Long"
+                },
+                {
+                    "name": "Chengqi Zhang"
+                },
+                {
+                    "name": "Philip S. Yu"
+                }
+            ]
+        },
+        {
+            "paperId": "paper_004",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "abstract": "This paper introduces BERT, a bidirectional pre-training method for language representation. The model improves performance on a wide range of natural language understanding tasks.",
+            "citations": [
+                {
+                    "paperId": "paper_107"
+                },
+                {
+                    "paperId": "paper_108"
+                }
+            ],
+            "references": [
+                {
+                    "paperId": "paper_209"
+                },
+                {
+                    "paperId": "paper_210"
+                }
+            ],
+            "year": 2018,
+            "authors": [
+                {
+                    "name": "Jacob Devlin"
+                },
+                {
+                    "name": "Ming-Wei Chang"
+                },
+                {
+                    "name": "Kenton Lee"
+                },
+                {
+                    "name": "Kristina Toutanova"
+                }
+            ]
+        },
+        {
+            "paperId": "paper_005",
+            "title": "The Elements of Statistical Learning",
+            "abstract": "This book-style paper gives a broad overview of statistical learning methods and their practical uses. It remains a standard reference for machine learning and statistical modeling.",
+            "citations": [
+                {
+                    "paperId": "paper_109"
+                }
+            ],
+            "references": [
+                {
+                    "paperId": "paper_211"
+                },
+                {
+                    "paperId": "paper_212"
+                }
+            ],
+            "year": 2001,
+            "authors": [
+                {
+                    "name": "Trevor Hastie"
+                },
+                {
+                    "name": "Robert Tibshirani"
+                },
+                {
+                    "name": "Jerome Friedman"
+                }
+            ]
+        }
+    ]
+}
