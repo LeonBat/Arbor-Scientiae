@@ -1,5 +1,4 @@
-{
-    "data": [
+[
         {
             "paperId": "paper_001",
             "title": "Attention Is All You Need",
@@ -198,5 +197,4 @@
                 }
             ]
         }
-    ]
-}
+]
