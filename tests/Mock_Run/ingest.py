@@ -3,11 +3,6 @@
 ############
 
 
-############
-# This script ingests the mock run data into the database for testing purposes.
-############
-
-
 import json
 from pathlib import Path
 
@@ -27,7 +22,6 @@ with output_path.open("w", encoding="utf-8") as output_file:
 #load content of test_data.json
 with output_path.open("r", encoding="utf-8") as written_file:
 	written_papers = json.load(written_file)
-
 
 
 #Checking for correctness
@@ -53,4 +47,5 @@ assert written_papers == papers, "Roundtrip write/read mismatch"
 print(f"Loaded {len(papers)} papers from {source_path.name} and wrote {output_path.name}.")
 print(f"First paper title: {first_paper['title']}, with {len(first_paper['citations'])} citations and {len(first_paper['references'])} references.")
 print(f"First paper authors: {[author['name'] for author in first_paper['authors']]}")
+
 
